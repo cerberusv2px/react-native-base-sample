@@ -7,4 +7,6 @@ import {
 
 export default createStackNavigator({
   Home: { screen: FirstScreen },
+},{
+  headerMode: 'none',
 });

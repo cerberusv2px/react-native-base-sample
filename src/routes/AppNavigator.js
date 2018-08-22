@@ -12,6 +12,7 @@ import { connect } from 'react-redux';
 import ConstStyles from '../constants/Styles';
 
 import HomeNavigator from './HomeNavigator'
+import Colors from '../constants/Colors';
 
 const stateMap = (state) => ({
   user: state.user
@@ -31,7 +32,7 @@ class AppNavigator extends Component {
             <View
               style={{
                 height: Constants.statusBarHeight,
-                backgroundColor: '#6bcbf8',
+                backgroundColor: Colors.red,
               }}
             />
             : null
